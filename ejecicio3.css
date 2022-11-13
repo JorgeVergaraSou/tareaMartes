@@ -1,0 +1,126 @@
+nav{
+    display: flex;
+    padding: .5em;
+    height: 75px;
+    background-color: grey;
+    color: white;
+    border-radius:10px;
+}
+span{ 
+    padding: .1em;
+    width: 100px;
+    text-align: center;
+}
+div{
+    border-radius: 10px;
+    text-align: center;
+}
+.contenedorIzq, .contenedorDer{
+   
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contenedorDer{
+    flex-direction: column;
+    align-items: end;
+}
+.encabezado{
+    background-color: blueviolet;
+
+}
+.logo{
+    background-color: blue;
+
+}
+.menu1{
+    background-color: tan;
+
+}
+.menu2{
+    background-color: whitesmoke;
+    color: black;
+    width: 160px;
+
+}
+
+.tresCajas{
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+    height: 100px;
+    justify-content: space-between;
+    column-gap: 10px;
+    margin-top: .2em;
+   
+}
+.art1hijo1{    
+    flex-grow: 1;
+    background-color: rgb(136, 136, 136);
+    width: 30vw;
+}
+.art1hijo2{    
+    flex-grow: 1;
+    background-color: rgb(15, 171, 233);
+    width: 30vw;
+}
+.art1hijo3{    
+    flex-grow: 1;
+    background-color: rgb(255, 251, 0);
+    width: 30vw;
+}
+
+.dosCajas{
+    display: flex;
+    padding: 0em;
+    flex-wrap: wrap;
+    gap:  5rem 1rem;
+    height: 120px;
+    justify-content: space-between;
+    column-gap: 10px;
+    margin-top: .5em;
+}
+
+.art2hijo1{    
+    flex-grow: 2; 
+    background-color : rgb(5, 61, 5);
+    color: aliceblue;
+    width: 62vw;
+}
+.art2hijo2{    
+    flex-grow: 1;
+    background-color: rgb(233, 95, 15);
+    width: 30vw;
+}
+
+.foo1{
+    display: flex;
+    background-color: aqua;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: .2em;
+}
+
+.pieIzq, .pieDer{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: .5em;
+}
+
+.pieDer{
+    flex-direction: column;
+    align-items: end;
+}
+.elem1{ 
+    background-color: blue;
+    color: white;
+    flex-direction: column;
+    align-items: end;
+    height: 25px;
+    border-radius: 0px;
+
+}

@@ -1,0 +1,62 @@
+body{
+    zoom: 1.5;
+    font-size: small;
+    
+}
+
+article{
+    display: flex;
+    padding: 0em;
+    flex-wrap: wrap;
+    gap:  5rem 1rem;
+    border: 1px solid darkorchid;
+}
+div{
+    min-width: 100px;
+}
+
+.hijo1{
+    display: flex;
+    background-color: aqua;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+.title{
+    flex-basis: 100vw;
+}
+.subtit{
+    flex-basis: 100vw;
+}
+/*
+.titu{
+    flex-grow: 1;
+}*/
+.foto{
+
+    
+    flex-grow: 1;
+    width: 200px;
+    border-radius: 15%;
+   
+}
+.divi{
+    flex-grow: 1;
+    background-color: blanchedalmond;
+   
+    max-width: 70ch;
+    
+}
+
+.hijo2{
+    flex-grow: 1;
+    background-color: rgb(219, 32, 47);
+}
+.hijo3{
+    flex-grow: 1;
+    background-color: rgb(231, 217, 22);
+}
+.hijo4{
+    flex-grow: 1;
+    background-color: rgb(33, 236, 60);
+}
+
